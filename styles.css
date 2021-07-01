@@ -1,0 +1,85 @@
+* {
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    font-size: 1.05em;
+    text-decoration: none;
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#email_value{
+    display: none;
+}
+
+.main_area {
+    height: calc(100vh);
+    width: 100%;
+    background-image: url("resources/menu_nav_background_img.jpg");
+    background-size: cover;
+    display: block;
+}
+
+.menu_nav {
+    height: 70px;
+    background-color: transparent;
+    display: block;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 3em 1.5em;
+}
+
+.container{
+    display: flex;
+    margin: 0 auto;
+    justify-content: flex-end;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+.listagem_navegacao {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav_item {
+    padding: 10px 15px 10px 15px;
+}
+
+.nav_item:hover{
+    border-bottom: solid 2px rgb(55, 132, 233) ;
+    font-size: 1.15em;
+    padding-top: 0%;
+}
+
+.linkedin:hover, .fa-linkedin:hover{
+    border-bottom: solid 2px #0A63BC ;
+    color: #0A63BC;
+}
+
+.github:hover, .fa-github:hover{
+    border-bottom: solid 2px #7C007C ;
+    color: #7C007C;
+}
+
+.email:hover, .fa-envelope:hover{
+    border-bottom: solid 2px #EE7F69 ;
+    color: #EE7F69;
+}
+
+ul, li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
