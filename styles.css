@@ -1,6 +1,5 @@
 * {
     font-family: 'Indie Flower', cursive;
-    color: white;
     font-size: 1.05em;
     text-decoration: none;
     margin: 0;
@@ -22,9 +21,10 @@
 }
 
 #habilidades {
-    min-height: calc(80vh);
+    min-height: calc(70vh);
     height: fit-content;
     width: 100%;
+    margin-bottom: 100px;
 }
 
 .menu_nav {
@@ -47,6 +47,10 @@
 .listagem_navegacao {
     display: flex;
     flex-wrap: wrap;
+}
+
+.listagem_navegacao a li {
+    color: white;
 }
 
 .nav_item {
@@ -90,8 +94,8 @@ ul, li {
 
 .habilidades_title h1 {
     color: #000;
+    font-weight: bold;
     font-size: 2.1em;
-    border-bottom: 7px solid rgb(224, 37, 37);
     padding-bottom: 30px;
     font-family: 'Encode Sans SC', sans-serif;
     margin: 0 auto;
@@ -106,7 +110,6 @@ ul, li {
     margin: 0 auto;
     justify-content: flex-end;
     padding-top: 60px;
-    margin-right: 40px;
 }
 
 .habilidades_content {
@@ -120,12 +123,11 @@ ul, li {
 
 .habilidades_item {
     max-width: 210px;
-    min-width: 150px;
+    min-width: 170px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 2% 3% 2% 3%;
     margin: 0 auto;
 }
 
@@ -136,6 +138,7 @@ ul, li {
     font-size: 1.3em;
     font-weight: bold;
 }
+
 
 .habilidades_item img {
     width: 150px;
@@ -169,4 +172,98 @@ ul, li {
     margin-bottom: 30px;
 }
 
+#typed {
+    margin: 0 auto;
+    color: #000;
+    font-size: 2em;
+    margin-top: 50px;
+    overflow: auto;
+    min-height: 2.4em;
+}
 
+#footer{
+    height: calc(50vh);
+    width: 100%;
+    background-size: cover;
+    display: block;
+}
+
+.back {
+    background-image: url("resources/wave.svg");
+    display: block;
+    height: 100%;
+    height: 100%;
+}
+
+blue{
+    color: rgb(0, 0, 117);
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+red {
+    font-size: 1.5em;
+    color: rgb(133, 0, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+green {
+    color: rgb(5, 88, 9);
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.typed-cursor {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#curriculo {
+    border-top: 1px solid #000;
+    margin: 0 auto;
+    max-width: 1600px;
+    max-height: calc(80vh);
+    min-height: calc(60vh);
+}
+
+.container_curriculo{
+    display: flex;
+    flex: 1 1 2;
+    margin: 0 auto;
+}
+
+.foto_leftside {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.foto_leftside img{
+    max-width: 20em;
+    width: 100%;
+    max-height: 20em;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.curriculo_content{
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.curriculo_content h1{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin: 0px 50px 0px 50px;
+}
